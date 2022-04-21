@@ -1,12 +1,14 @@
-public class QuanLyHangHoa {
-    import java.util.Date;
+package BaiThiCuoiKy;
+
+
+import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ControllerHangHoa {
+public class QuanLyHangHoa {
     private SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
     private List<HangHoa> ds = new ArrayList<>();
     public Scanner sc = new Scanner(System.in);
@@ -73,4 +75,6 @@ public class ControllerHangHoa {
     }
 
 }
-}
+
+    
+

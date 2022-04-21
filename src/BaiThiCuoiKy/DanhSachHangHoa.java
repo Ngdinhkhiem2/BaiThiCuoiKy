@@ -1,5 +1,7 @@
-public class DanhSachHangHoa {
-    import java.util.ArrayList;
+package BaiThiCuoiKy;
+
+
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -14,7 +16,7 @@ public class DanhSachHangHoa {
     public Scanner sc = new Scanner(System.in);
     
     public void them(){
-        ControllerHangHoa cl = new ControllerHangHoa();
+        QuanLyHangHoa cl = new QuanLyHangHoa();
         String tieptuc = null;
         do{
             HangHoa hh = cl.inputHangHoa();
@@ -103,4 +105,4 @@ public class DanhSachHangHoa {
     }
 }
     
-}
+
